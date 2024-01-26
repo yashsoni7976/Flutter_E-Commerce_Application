@@ -13,7 +13,7 @@ class ProfileScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: TAppBar(
+      appBar: const TAppBar(
       showBackArrow: true,
         title: Text('Profile'),
       ),
@@ -28,7 +28,7 @@ class ProfileScreen extends StatelessWidget {
                 width: double.infinity,
                 child: Column(
                   children: [
-                    TCircularImage(image: TImages.user, width: 80, height: 80),
+                    const TCircularImage(image: TImages.user, width: 80, height: 80),
                     TextButton(onPressed: (){}, child: const Text('Change Profile Picture')),
                   ],
                 ),

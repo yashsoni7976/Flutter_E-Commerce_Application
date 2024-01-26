@@ -25,9 +25,11 @@ class StoreScreen extends StatelessWidget {
             "Store",
             style: Theme.of(context).textTheme.headlineMedium,
           ),
-          actions: [
+          actions: const [
             TCartCounterIcon(
-              onPressed: () {},
+              iconColor: TColors.white,
+              counterBgColor: TColors.black,
+              counterTextColor: TColors.white,
             ),
           ],
         ),

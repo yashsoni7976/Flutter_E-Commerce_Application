@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:t_store/common/widgets/icon/t_circular_icon.dart';
-import 'package:t_store/common/widgets/images/t_circular_image.dart';
 import 'package:t_store/utils/constants/colors.dart';
 import 'package:t_store/utils/constants/sizes.dart';
 import 'package:t_store/utils/helpers/helper_functions.dart';
@@ -49,12 +47,12 @@ class TBottomAddToCart extends StatelessWidget {
           ),
           ElevatedButton(
             onPressed: () {},
-            child: Text('Add to Cart'),
             style: ElevatedButton.styleFrom(
               padding: const EdgeInsets.all(TSizes.md),
               backgroundColor: TColors.black,
               side: const BorderSide(color: TColors.black),
             ),
+            child: const Text('Add to Cart'),
           ),
         ],
       ),
