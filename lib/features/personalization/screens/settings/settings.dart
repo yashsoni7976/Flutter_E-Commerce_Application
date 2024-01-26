@@ -11,6 +11,7 @@ import 'package:t_store/utils/constants/colors.dart';
 import 'package:t_store/utils/constants/sizes.dart';
 
 import '../../../../common/widgets/list_tiles/user_profile_tile.dart';
+import '../../../shop/screens/order/order.dart';
 
 class SettingScreen extends StatelessWidget {
   const SettingScreen({super.key});
