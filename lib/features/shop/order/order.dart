@@ -17,7 +17,7 @@ class OrderScreen extends StatelessWidget {
         ),
       ),
 
-      body: Padding(
+      body: const Padding(
         padding: EdgeInsets.all(TSizes.defaultSpace),
 
         /// -- Orders
